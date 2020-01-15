@@ -5,11 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Christophs Website</title>
-    <link
+    <link rel="stylesheet" href="style.css"/>
+
+    <!-- <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
       integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
-      crossorigin="anonymous"/>
+      crossorigin="anonymous"/> -->
   </head>
 
  
@@ -28,25 +30,23 @@
 
       <section>
 
+      <card class="card">
         <picture>
-          <source srcset="Tappe_new_1140px.jpg" media="(min-width: 600px)">
-          <img src="Tappe_new_576px.jpg" alt="">
+          <source srcset="Tappe_576px.jpg" media="(min-width: 600px)">
+          <img src="Tappe_400px.jpg" alt="">
          </picture>
 
-
-        <picture>
-          <source>
-        </picture>
-          <img src="tappe_new.jpg" alt=""/>
             <h4>Ich bin Fotograf und Web-Developer. </h4>
             <p>
               Mein Name ist Christoph Tappé und ich bin ein kommunikativer
               Allrounder der es liebt, sich neuen Herausforderungen zu stellen
               und mit einer Hands-on-Mentalität lösungsorientiert zu arbeiten.
-            </p>
-           
               Erfahren Sie auf dieser Seite mehr über mich.
             </p>
+           
+
+            </p>
+        </card>
 
       </section>
 
@@ -82,8 +82,7 @@
               <span>InDesign</span>
           </article>
 
-          <section id="contact" class="mt-3">
-            <div class="alert alert-warning text-dark" role="alert">
+          <section id="contact">
               <h4 class="alert-heading">Kontakt</h4>
               <p class="mb-0 text-dark">
                 Sie sind auf der Suche nach einen Junior-Web-Developer, der zugleich über Erfahrungen im Projekt-Management verfügt, 
@@ -265,7 +264,7 @@
       
 
 
-
+<!-- 
     <script
       src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
       integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
@@ -280,7 +279,7 @@
       src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
       integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
       crossorigin="anonymous"
-    ></script>
+    ></script> -->
     
 
 
@@ -298,44 +297,3 @@
   </body>
 </html>
 
-<style>
-h3 {
-  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
-;  color: #cdd7e0;
-}
-
-body {
-  display: grid;
-  gap: 2px;
-  grid-template-rows: 48px auto 48px;
-  height: 100vh;
-}
-
-.header {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background: #757F81;
-}
-
-.scroll-container {
-  background: #cdd7e0;
-  padding: 20px;
-  overflow-y: scroll;
-}
-  .main-navigation {
-    display: flex;
-    background: #757F81;
-  }
-
-  .main-navigation button {
-    flex-grow: 1;
-  }
-
-  .copyright {
-    color: white;
-    font-size: 80%;
-
-  }
-
-</style>
