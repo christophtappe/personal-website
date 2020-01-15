@@ -1,3 +1,8 @@
+@import "colors";
+@import "base";
+@import "utility";
+@import "card";
+@import "card-grid";
 * {
   box-sizing: border-box;
 }
@@ -12,7 +17,7 @@ body {
   display: grid;
   gap: 5px;
   grid-template-rows: 48px auto 48px;
-  height: 99vh;
+  height: 100vh;
 }
 
 .card {
@@ -57,7 +62,6 @@ h3 {
   padding: 20px;
   overflow-y: scroll;
 }
-
 .main-navigation {
   display: flex;
   background: #757f81;
