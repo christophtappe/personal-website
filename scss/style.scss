@@ -4,28 +4,3 @@
 @import "card";
 @import "card-grid";
 //@import "scroll-container";
-
-* {
-  box-sizing: border-box;
-}
-
-body {
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  background-color: #c7a695;
-  display: grid;
-  gap: 5px;
-  grid-template-rows: 48px auto 48px;
-  height: 100vh;
-}
-
-img {
-  width: 100%;
-  margin-bottom: 10px;
-  border-radius: 2%;
-  box-shadow: 2px 2px 2px 1px;
-}
-
-h3 {
-  color: #958271;
-  font-size: 22px;
-}
