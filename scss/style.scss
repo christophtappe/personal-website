@@ -1,4 +1,4 @@
-//@import "colors";
+@import "colors";
 @import "base";
 //@import "utility";
 @import "card";
@@ -7,10 +7,6 @@
 
 * {
   box-sizing: border-box;
-}
-
-:root {
-  --beige: #958271;
 }
 
 body {
@@ -31,5 +27,5 @@ img {
 
 h3 {
   color: #958271;
-  font-size: 24px;
+  font-size: 22px;
 }
